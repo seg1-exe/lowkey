@@ -1,17 +1,25 @@
-<script setup>
-import ARenommer from './components/ARenommer.vue'
-
-// si vous voulez utilisez pinia , il faut placer ces deux lignes dans le composant de votre choix.
-//import { useDefaultStore } from './stores/index'
-//const store = useDefaultStore()
-</script>
-
 <template>
-  <main>
-    <ARenommer />
-  </main>
+  <div id="app">
+    <header>
+      <div class="nav-left">
+        <h1>Lowkey</h1>
+      </div>
+      <div class="nav-mid">
+
+      </div>
+      <div class="nav-right">
+        <router-link to="/">Home</router-link>
+        <router-link to="/articles">Articles</router-link>
+        <router-link to="#contact">Contact</router-link>
+      </div>
+    </header>
+    <router-view></router-view>
+
+  </div>
 </template>
 
-<style>
+<script setup>
+</script>
 
+<style>
 </style>
