@@ -1,4 +1,4 @@
-# vue3-minimal
+# Lowkey
 
 Ce projet permet de construire rapidement un site avec VueJS 3 avec le minimum de composants installés
 
