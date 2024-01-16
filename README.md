@@ -1,37 +1,31 @@
 # Lowkey
 
-Ce projet permet de construire rapidement un site avec VueJS 3 avec le minimum de composants installés
+Ce projet est un projet de fin de formation de 2ème année en licence informatique. Il a été réalisé par pendant 4 mois par moi-même en étant supervisé par mes professeurs.
 
-## Recommandation pour le développement
+## Présentation
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (supprimer éventuellement Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
+Lowkey est un média de culture musicale, ils mettent en avant des artistes plus ou moins connus en expliquant le dessous des lignes afin de mieux comprendre la musique. Ce site a pour projet de leur donner une plateforme pour mettre en avant leur contenu et recenser tout leurs précédents travaux.
 
-## Pour modifier la configuration de Vite
+## Technologies
 
-Voir [Vite Configuration Reference](https://vitejs.dev/config/).
+Ce projet a été réalisé avec les technologies suivantes :
+- Symfony pour le back-end et la partie API
+- VueJS pour le front-end
 
-## Installation des dépendances
+## Design
 
-```sh
-npm install
-```
+Le design a été réalisé par moi-même en suivant la direction artistique du média. Les couleurs sont donc principalement vertes et noires à leur image.
 
-### Routage
+Voici quelques exemples de la maquette réalisée sur Affinity Designer :
 
-- Le routage est déjà installé avec une configuration minimale présent dans le dossier src/router
+La page d'accueil :
+![homepage](./homepage.png)
 
-### Gestion de l'état avec Pinia
+La page des articles :
+![articles](./screenshot-articles.png)
 
-- Un store minimal est déjà installé présent dans le dossier src/stores
+La page de l'article :
+![article](./screenshot-article.png)
 
-### Lancer le serveur de développement
-
-```sh
-npm run dev
-```
-
-### Avoir un rendu pour la production
-
-```sh
-npm run build
-```
+La page d'une catégorie :
+![categorie](./categorie.png)
